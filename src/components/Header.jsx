@@ -33,6 +33,7 @@ const Header = ({ todos, setTodos }) => {
           disabled={!task.trim()}
           id="basic-addon2"
           onClick={addTodo}
+          // onKeyUp={addTodo}
         >
           Add Todo
         </Button>
